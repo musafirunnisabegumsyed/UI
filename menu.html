@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotel.css">
+    
+   
+   
+    <title>Food website | Food Menu</title>
+</head>
+
+<body>
+    <!--Header for laptop (start)-->
+    <header>
+        <div class="header">
+
+            <!--Sign up/Sign in Form-->
+            <div class="sign">
+                <div class="sign-box">
+                    <div class="bar">
+                        <i class="fa-solid fa-xmark" id="x-sign-mb"></i>
+                    </div>
+                    <!-- sign up form  -->
+                    <div class="signup">
+                        <h3>Sign Up</h3>
+                        <form action="#">
+                            <label for="fullname">Enter Full Name</label></br>
+                            <input type="text" placeholder="Full Name" name="fullname" id=""></br>
+                            <label for="email">Enter E-mail</label></br>
+                            <input type="email" placeholder="E-mail" name="email" id=""></br>
+                            <label for="password">Create Password</label></br>
+                            <input type="password" placeholder="Password" name="password" id=""></br>
+                            <label for="copassword">Confirm Password</label></br>
+                            <input type="password" placeholder="Confirm Password" name="copassword" id=""></br>
+                            <input type="submit" value="Sign Up">
+                            <p id="to-signin">Already have an account? Sign In</p>
+                        </form>
+                    </div>
+                    <!-- sign in form  -->
+                    <div class="signin">
+                        <h3>Sign In</h3>
+                        <form action="#">
+                            <label for="email2">Enter Your E-mail:</label>
+                            <input type="email" placeholder="E-mail" name="email2" id="">
+                            <label for="password2">Enter Password: </label>
+                            <input type="password" placeholder="Password" name="password2" id="">
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <p>Forgot Password?</p>
+                        <p id="to-signup">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (start)-->
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="./index.html">
+                            <li><i class="fa-solid fa-house-chimney"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search" name="" id="">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li><i class="fa-solid fa-user" id="user-mb"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./About.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./menu.html">
+                            <li>Food Menu</li>
+                        </a>
+                        <a href="./book.html">
+                            <li>Book table</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (end)-->
+            <div class="logo">
+                <img src="https://i.pinimg.com/736x/48/78/6d/48786db88c95237f6e0b375dc991448a.jpg" alt="logo">
+            </div>
+            <!--Bar/cross in header for mobile/tablet (start)-->
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <!--Bar/cross in header for mobile/tablet (end)-->
+            <div class="nav">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="./book.html">
+                        <li>Book table</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="./index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user" id="user-lap"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header for laptop (end)-->
+
+    <div class="menu">
+        <div class="menu1">
+            <div>
+                <h1>Food Menu</h1>
+            </div>
+            <div class="fav-head">
+                <!-- Add your all food items  -->
+                <div class="fav-food">
+                    <div class="item">
+                        <div>
+                            <img src="https://www.cookwithmanali.com/wp-content/uploads/2019/05/Paneer-Butter-Masala.jpg" alt="Food item">
+                        </div>
+                        <h3>Butter Paneer</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹295</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://www.vegkitchen.com/wp-content/uploads/2022/04/Sticky-sesame-cauliflower-vegan-recipe-9-720x1080.jpg" alt="Food item">
+                        </div>
+                        <h3>Sesame-cauliflower</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹450</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://cdn.loveandlemons.com/wp-content/uploads/2022/06/grilled-mushrooms-1-683x1024.jpg" alt="Food item">
+                        </div>
+                        <h3>Grilled-Mushrooms</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹150</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://i.pinimg.com/564x/35/b6/72/35b672a6b9afed4949f955e507ff5a2b.jpg" alt="Food item">
+                        </div>
+                        <h3>vegan Noodles</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹180</p></div>
+                    <div class="item">
+                        <div>
+                            <img src="https://i.pinimg.com/736x/ed/39/5a/ed395a2799679158edc7f2cc3520bb69.jpg" alt="Food item">
+                        </div>
+                        <h3>Masala Dosa</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹160</p></div>
+
+                    <div class="item">
+                        <div>
+                            <img src="https://bonmasala.com/wp-content/uploads/2022/10/mutton-biriyani-recipe.jpeg" alt="Food item">
+                   "     </div>
+                        <h3>Biryani</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹250</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://i0.wp.com/www.pepperdelight.com/wp-content/uploads/2020/10/pepper-delight-butter-chicken-1-scaled.jpg?resize=1187%2C1536&ssl=1" alt="Food item">
+                        </div>
+                        <h3>Butter Chicken</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹260</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Grilled-Fish-600x600.jpg" alt="Food item">
+                        </div>
+                        <h3>Grilled-Salmon</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹350</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://i.pinimg.com/564x/c0/7e/09/c07e0914ea938cfee061d87ff1f12937.jpg" alt="Food item">
+                        </div>
+                        <h3>Beef Steak</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹290</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://i.pinimg.com/564x/e8/35/ed/e835ed89023c2a6d2d1933321d59efc4.jpg" alt="Food item">
+                        </div>
+                        <h3>Chicken Momos</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹180</p></div>
+                        <div class="item">
+                            <div>
+                                <img src="https://i.pinimg.com/564x/17/58/c7/1758c72a71e7e086e06f1c47080ec7af.jpg" alt="Food item">
+                            </div>
+                            <h3>Opera Cake</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur </p>
+                            <p class="fav-price">₹190</p></div>
+                            <div class="item">
+                                <div>
+                                    <img src="https://i.pinimg.com/564x/80/35/60/803560020f0f772bb12862e1eb2f50c0.jpg" alt="Food item">
+                                </div>
+                                <h3>Cheese Cake</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur </p>
+                                <p class="fav-price">₹145</p></div>
+                    <div class="item">
+                        <div>
+                            <img src="https://i.pinimg.com/564x/4c/af/b3/4cafb31fbf18444ffcda788e404ac59d.jpg" alt="Food item">
+                        </div>
+                        <h3>Brownies</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹150</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://i.pinimg.com/564x/32/10/c5/3210c581561ed307100d8a2753c9457c.jpg" alt="Food item">
+                        </div>
+                        <h3>Blue Berry Cake</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">₹120</p></div>
+                        <div class="item">
+                            <div>
+                                <img src="https://i.pinimg.com/564x/8e/46/cd/8e46cd4a3ae882c29d2a15f2e1503cd2.jpg" alt="Food item">
+                            </div>
+                            <h3>Icecream Sundae</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur </p>
+                            <p class="fav-price">₹160</p></div>
+                            <div class="item">
+                                <div>
+                                    <img src="https://i.pinimg.com/564x/a6/55/0a/a6550a586383b223b731dba0c3788b41.jpg" alt="Food item">
+                                </div>
+                                <h3>Lotus Biscoff Shake</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur </p>
+                                <p class="fav-price">₹180</p></div>
+                            <div class="item">
+                                    <div>
+                                        <img src="https://i.pinimg.com/564x/aa/c8/e7/aac8e7495442ea137e4b6d81354d4876.jpg" alt="Food item">
+                                    </div>
+                                    <h3>Mango Milkshake</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur </p>
+                                    <p class="fav-price">₹160</p></div>
+                                    <div class="item">
+                                        <div>
+                                            <img src="https://i.pinimg.com/564x/da/6c/ba/da6cbaf2bd283674faa09df8d63fc3fc.jpg" alt="Food item">
+                                        </div>
+                                        <h3>Berry Mojitos</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                                        <p class="fav-price">₹190</p></div>
+                                    <div class="item">
+                                            <div>
+                                                <img src="https://i.pinimg.com/564x/bf/3d/48/bf3d48d029553e4edee2d30588717787.jpg" alt="Food item">
+                                            </div>
+                                            <h3>classic cocktail</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur </p>
+                                            <p class="fav-price">₹195</p></div>
+                                            <div class="item">
+                                                <div>
+                                                    <img src="https://i.pinimg.com/564x/96/4e/62/964e62f9687be80c8523177224f464b5.jpg" alt="Food item">
+                                                </div>
+                                                <h3>Blueberry Delight</h3>
+                                                <p>Lorem ipsum dolor sit, amet consectetur </p>
+                                                <p class="fav-price">₹200</p></div>
+                                     
+                                    
+                    
+                        
+                                 
+                                            
+                                                   
+                                                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-1">
+            <div class="logo">
+                
+            </div>
+            <div>
+                <address>
+                        <p>Email: omjitrivedi17@gmail.com</p>
+                        <p>YouTube: Developer Dude</p>
+                        <p>Mr Omji Trivedi 132,</br>My Street, New Delhi,</br> India 110006.</p>
+                    </address>
+            </div>
+        </div>
+        <div class="footer-2">
+            
+            <h2>Powered by <em>Anna shria Begum Fayha</em></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
